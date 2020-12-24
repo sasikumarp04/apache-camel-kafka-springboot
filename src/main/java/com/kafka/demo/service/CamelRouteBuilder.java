@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Slf4j
 @Component
-public class SimpleRouteBuilder extends RouteBuilder {
+public class CamelRouteBuilder extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
