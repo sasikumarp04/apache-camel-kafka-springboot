@@ -1,0 +1,15 @@
+{
+  "fields": [
+    {
+      "name": "userId",
+      "type": "string"
+    },
+    {
+      "name": "userName",
+      "type": "string"
+    }
+  ],
+  "name": "UserInfo",
+  "namespace": "com.avro.demo",
+  "type": "record"
+}
