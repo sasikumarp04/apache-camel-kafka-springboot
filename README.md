@@ -35,7 +35,7 @@ RequestBody:
 
 topicName: salary-process-v1
 
-##Observation
+## Observation
 Once the message published to kafka successfully you can see the following log message in your service log
 
 ### Salary Process Event log
