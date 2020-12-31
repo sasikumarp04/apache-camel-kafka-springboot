@@ -1,0 +1,56 @@
+{
+  "fields": [
+    {
+      "name": "employeeName",
+      "type": {
+        "avro.java.string": "String",
+        "type": "string"
+      }
+    },
+    {
+          "name": "employeeNumber",
+          "type": {
+            "avro.java.string": "String",
+            "type": "string"
+       }
+     },
+    {
+          "name": "role",
+          "type": {
+            "avro.java.string": "String",
+            "type": "string"
+       }
+     },
+    {
+      "name": "createdDate",
+      "type": {
+        "avro.java.string": "String",
+        "type": "string"
+      }
+    },
+    {
+      "name": "updatedDate",
+      "type": {
+        "avro.java.string": "String",
+        "type": "string"
+      }
+    },
+    {
+      "name": "mobileNumber",
+      "type": {
+        "avro.java.string": "String",
+        "type": "string"
+      }
+    },
+    {
+      "name": "emailId",
+      "type": {
+        "avro.java.string": "String",
+        "type": "string"
+      }
+    }
+  ],
+  "name": "EmployeeDetailsV1",
+  "namespace": "com.camel.demo",
+  "type": "record"
+}

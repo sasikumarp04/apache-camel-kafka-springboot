@@ -5,11 +5,11 @@ spring:
     bootstrap-servers: localhost:9092
     schema:
       registry:
-        url: http://localhost:8085/
+        url: http://localhost:8081/
 
 # Consumer properties
 consumer:
-  topic: kafka-demo-test2,kafka-demo-test3
+  topic: kafka-demo-test2,kafka-demo-test3,employee-details-v1,salary-process-v1
   group: kafkaGroup
   maxPollRecords: 5000
 

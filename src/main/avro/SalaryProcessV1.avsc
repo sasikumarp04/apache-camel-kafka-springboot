@@ -1,0 +1,37 @@
+{
+  "fields": [
+    {
+          "name": "employeeNumber",
+          "type": {
+            "avro.java.string": "String",
+            "type": "string"
+       }
+     },
+    {
+      "name": "createdDate",
+      "type": {
+        "avro.java.string": "String",
+        "type": "string"
+      }
+    },
+    {
+      "doc": "One of the following values [CREDITED, IN_PROCESS].",
+      "name": "status",
+      "type": {
+        "avro.java.string": "String",
+        "type": "string"
+      }
+    },
+    {
+      "doc": "One of the following values [INR, USD].",
+      "name": "currency",
+      "type": {
+        "avro.java.string": "String",
+        "type": "string"
+      }
+    }
+  ],
+  "name": "SalaryProcessV1",
+  "namespace": "com.camel.demo",
+  "type": "record"
+}

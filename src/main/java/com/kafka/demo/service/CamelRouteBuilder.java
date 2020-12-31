@@ -17,7 +17,7 @@ public class CamelRouteBuilder extends RouteBuilder {
                 .log("on the partition ${headers[kafka.PARTITION]}")
                 .log("with the offset ${headers[kafka.OFFSET]}")
                 .log("with the key ${headers[kafka.KEY]}")
-                .process();
+                .process(new KafkaEventConsumer());
     }
 
 }
